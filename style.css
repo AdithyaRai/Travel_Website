@@ -1,0 +1,182 @@
+body{
+   background-color: burlywood;
+   flex-wrap: wrap;
+
+}
+.head{
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px darkred;
+}
+.head nav{
+    text-align: right;
+    font-size: 30px;
+}
+.head h1{
+    text-align: center;
+    font-family: 'Lucida Handwriting', cursive;
+    font-size: 50px;
+}
+.intro{
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin: 20px;color: black;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px gray;
+    background-color: rgba(12, 229, 253, 0.378);
+    font-size: 20px;
+    font-style: bold;
+}
+.container{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px gray;
+    background-color: rgba(12, 229, 253, 0.378);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.France{
+    background-image: url('france.jpg');
+    color: white;
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px gray;
+    margin: 20px;
+    padding: 20px;
+    transition: transform 0.3s;
+    flex-grow: 1;
+}
+.France:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.Italy{
+    background-image: url('italy.jpg');
+    color: black;
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px gray;
+    margin: 20px;
+    padding: 20px;
+    transition: transform 0.3s;
+    flex-grow: 1;
+}
+.Italy:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.Japan{
+    background-image: url('japan.jpg');
+    color: white;
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px gray;
+    margin: 20px;
+    padding: 20px;
+    transition: transform 0.3s;
+    flex-grow: 1;
+}
+.Japan:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.Australia{
+    background-image: url('australia.jpg');
+    background-position: center;
+    color: black;
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px gray;
+    margin: 20px;
+    padding: 20px;
+    transition: transform 0.3s;
+    flex-grow: 1;
+}
+.Australia:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.Greece{
+    background-image: url('greece.jpg');
+    background-position: center;
+    color: white;
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px gray;
+    margin: 20px;
+    padding: 20px;
+    transition: transform 0.3s;
+    flex-grow: 1;
+}
+.Greece:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.India{
+    background-image: url('india.jpg');
+    background-position: center;
+    color: white;
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px gray;
+    margin: 20px;
+    padding: 20px;
+    transition: transform 0.3s;
+    flex-grow: 1;
+}
+.India:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+.navigation .About, .navigation .Contact{
+    background-color: brown;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px darkred;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.navigation .About:hover, .navigation .Contact:hover{
+    background-color: darkred;
+    transform: scale(1.1);
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: grey;
+    color: white;
+}
